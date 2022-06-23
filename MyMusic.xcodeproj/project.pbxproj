@@ -11,6 +11,8 @@
 		D9E1E328286499FB00B36F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1E327286499FB00B36F7C /* ContentView.swift */; };
 		D9E1E32A286499FD00B36F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E1E329286499FD00B36F7C /* Assets.xcassets */; };
 		D9E1E32D286499FD00B36F7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E1E32C286499FD00B36F7C /* Preview Assets.xcassets */; };
+		D9E1E33428649D9400B36F7C /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1E33328649D9400B36F7C /* SoundPlayer.swift */; };
+		D9E1E3362864A1AB00B36F7C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1E3352864A1AB00B36F7C /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D9E1E327286499FB00B36F7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9E1E329286499FD00B36F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9E1E32C286499FD00B36F7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9E1E33328649D9400B36F7C /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		D9E1E3352864A1AB00B36F7C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D9E1E325286499FB00B36F7C /* MyMusicApp.swift */,
 				D9E1E327286499FB00B36F7C /* ContentView.swift */,
+				D9E1E3352864A1AB00B36F7C /* BackgroundView.swift */,
+				D9E1E33328649D9400B36F7C /* SoundPlayer.swift */,
 				D9E1E329286499FD00B36F7C /* Assets.xcassets */,
 				D9E1E32B286499FD00B36F7C /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9E1E328286499FB00B36F7C /* ContentView.swift in Sources */,
+				D9E1E33428649D9400B36F7C /* SoundPlayer.swift in Sources */,
+				D9E1E3362864A1AB00B36F7C /* BackgroundView.swift in Sources */,
 				D9E1E326286499FB00B36F7C /* MyMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
